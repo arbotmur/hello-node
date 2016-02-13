@@ -1,0 +1,28 @@
+{
+  "description": "test app. trying node, git & github",
+  "scripts": {
+    "start": "sh ./start.sh",
+    "lint": "jshint . --exclude node_modules",
+    "unit": "tape tests/* | tap-spec",
+    "test": "npm run lint && npm run unit"
+  },
+  "name": "hello-node",
+  "version": "1.0.0",
+  "main": "hellonode.js",
+  "dependencies": {
+    "assert": "^1.3.0",
+    "jshint": "^2.9.1",
+    "mocha": "^2.4.5",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.4.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "training",
+    "node",
+    "tests"
+  ],
+  "author": "barney",
+  "license": "ISC",
+  "repository": "https://github.com/arbotmur/hello-node.git"
+}
