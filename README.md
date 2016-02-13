@@ -1,5 +1,5 @@
-Nodetrain :
+Helo node :
 ===========
 
-Node & Git training.
+Node, Git & Github training.
 Sort of "Hello word". Just to test :-)
